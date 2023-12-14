@@ -8,7 +8,7 @@ export SCRIPT_PREFIX=$( echo "${SCRIPT_NAME}" | awk -F. '{ print $1 }' )
 export LOG_FILENAME=${SCRIPT_PREFIX}.log
 export HOSTNAME=$( hostname -s )
 
-VERBOSE=1
+VERBOSE=0
 
 ## PG Connect variables
 
